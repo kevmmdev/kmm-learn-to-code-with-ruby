@@ -1,13 +1,9 @@
-# boolean
-# George Boole
-puts true
-puts false
+def introduce_myself
+  puts "I am handsome"
+  puts "I am talented"
+  puts "I am brilliant"
+end
 
-puts 5 < 10
-puts 10 > 12
-
-handsome = true
-stupid = false
-
-puts handsome.class
-puts stupid.class
+introduce_myself
+introduce_myself
+introduce_myself()
